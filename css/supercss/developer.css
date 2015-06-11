@@ -1,0 +1,71 @@
+.errorMessage {
+    color: #FF0000; font-size: 11px; text-align: left; padding-left: 3px;
+}
+.grid-view{
+    padding: 0px !important;
+}
+.loading-shadow{background-color:#000; position:absolute; width:100%; height:100%; z-index:99999999999999; opacity:0.8;}
+.loading{width:100%; text-align:center; top:300px; position:absolute; background-color:#000 !important;}
+
+.padding-top-7px{ padding-top: 7px; }
+.document-top{margin-top: 5px !important;padding-top: 10px !important;border: 0;border-top: 1px solid #e1e1e1;width:100%;}
+
+/* Admin Panel specific CSS */
+ul.sr-pagination .first, ul.sr-pagination .last { display: none; }
+.sr-table .empty{ text-align: center; }
+.sr-table input, .sr-table select { padding: 5px; font-size: 13px; }
+.grid-view-loading { padding: 15px 0px !important; }
+.sr-table tr th a { color: #363f44; font-size: 13px; line-height: 28px; }
+.sr-table tr th { line-height: 27px !important; }
+.sort-link{ background-image:url(../images/sorting-normal.png); background-repeat:no-repeat; height:20px; width:10px; text-align:right; background-position: right; padding-right:15px; }
+.asc{ background-image:url(../images/sort_asc.png); background-repeat:no-repeat; height:20px; width:10px; text-align:right; background-position: right; padding-right:18px; }
+.desc{ background-image:url(../images/sort_desc.png); background-repeat:no-repeat; height:20px; width:10px; text-align:right; background-position: right; padding-right:18px; }
+
+.table input{ width:100%; }
+
+.extrarow{ font-weight: bold; }
+
+.ui-widget{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:inherit !important;
+}
+.nav-header a{
+display: block;
+font-size: 11px;
+font-weight: bold;
+line-height: 20px;
+color: #999999 !important;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+text-transform: uppercase;
+background: #529e5b !important;
+}
+.nav-header,.nav-header a:hover{
+display: block;
+font-size: 11px;
+font-weight: bold;
+line-height: 20px;
+color: #999999 !important;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+text-transform: uppercase;
+background: #529e5b !important;
+}
+.loaderImage{ background-image:url(../images/loader.gif); background-repeat:no-repeat; height:64px; width:100%; text-align:center; background-position: center;}
+.password-strength-bar{ margin-bottom: 3px; font-family: inherit; font-size: 12px;}
+.width-130px{min-width: 130px;}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{ position: inherit; }
+
+/**Added By Nishant**/
+.navbar-nav > li:last-child > .dropdown-menu {
+    right: 0 !important;
+}
+.font-size-12px{
+    font-size:12px;
+}
+
+.connected li.reportjobsfield{ background-color:#3fcf7f; border-color:#3fcf7f;}
+.connected li.reportjobsfield tag:before{ background-color:#30A665 !important; }
+
+.select2-container-multi .select2-choices .select2-search-field input{ float:left; }
+
+h2.text-non-transform { color:#363f44; font-size:16px; font-weight:700; line-height:34px; margin:0px; padding:0px;text-transform: none; }

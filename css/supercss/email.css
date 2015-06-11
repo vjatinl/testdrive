@@ -1,0 +1,54 @@
+/* 
+    Document   : email.css
+    Created on : Jan 23, 2015, 5:45:17 PM
+    Author     : nishantb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@charset "utf-8";
+/* CSS Document */
+body{font-family: 'Open Sans', sans-serif !important; background-color:#ffffff; margin:0px; padding:0px;}
+.container{ width:660px; margin:auto;}
+header{ border-top:3px solid #919191; box-shadow: 0 4px 2px -2px #e0e1e1; display:inline-block; width:100%;}
+.pull-left{ float:left;}
+.pull-right{ float:right;}
+.head-title{color: #000000;font-size: 14px;font-style: italic; font-weight: 400;  line-height:30px; text-decoration:none;}
+.head-title:hover{ text-decoration:underline; color:#529e5b;}
+.head-bg{ background-image:url(../images/head-bg.jpg); background-position:left top; background-repeat:repeat;}
+.head-main-title{ text-align:center; font-size:24px; font-weight:400; margin:0px; padding:0px; color:#2b2a29;}
+.head-main-title strong{ font-size:24px; font-weight:700; margin:0px; padding:15px 0px; color:#2b2a29;}
+.green-font-text-left{ text-align:left; font-size:16px; font-weight:400; color:#549e5b; margin-bottom:0px;}
+.title-des{text-align:left; font-size:14px; font-weight:400; color:#474747; margin-top:0px;}
+.pad-lr-15{ padding:0px 15px;}
+.pad-tb-10{ padding:10px 0px;}
+.pad-t-20{ padding-top:20px;}
+.pad-b-30{ padding-bottom:30px;}
+.bg-fff{ background-color:#ffffff;}
+.pad-b-10{ padding-bottom:10px;} 
+.mar-t-0{margin-top:0px;}
+.text-center-italic-font{ text-align:center; font-size:24px; font-weight:400; font-style:italic; color:#549e5b; margin:0px;}
+.text-center-bold-font{text-align:center; font-size:26px; font-weight:700; color:#474747; margin:0px; margin-bottom:20px; background-image:url(../images/border-bottom.jpg); background-position:center bottom; background-repeat:no-repeat; padding-bottom:10px;}
+.text-center-main{ color: #919191;font-size: 16px; margin: 0 0 20px;text-align: center; }
+
+.text-c-ti{ color:#535353; font-weight:700; font-size:22px; font-style:italic; text-align:center;}
+.col{  float: left; padding: 0 13px; width: 180px;}
+.login-btn{ text-align:center; width:100%;}
+.text-center-itai{ color: #474747;font-size: 28px;font-style: italic;
+font-weight: 600;text-align: center; margin-bottom:10px;}
+.txt-left-small-ita{color: #474747;font-size: 14px;font-style: italic;
+font-weight: 400;text-align: left; margin-bottom:0px; margin-top:30px;}
+.txt-left-small-bold{color: #529e5b;font-size: 16px;
+font-weight: 700;text-align: left; margin-top:0px; margin-bottom:0px;}
+footer{ background-image:url(../images/footer-bg.jpg); background-position:left top; background-repeat:repeat;}
+.text-center-wid{ width:400px; margin:auto; text-align:center; padding:20px 0px;}
+footer p{ color:#9e9e9e; font-size:14px; font-weight:400; margin:0px; }
+footer p span{ color:#ffffff; font-weight:700; font-size:14px;  }
+footer p a{ color:#d3d3d3; font-weight:400; font-size:14px; font-style:italic; text-decoration:none; }
+footer p a:hover{ color:#ffffff; text-decoration:underline;}
+.fot-p{ color:#474747; font-size:11px; font-weight:400;}
+.fot-p a{ color:#474747; font-size:11px; font-weight:400; text-decoration:none; padding:0px 5px;}
+.fot-p a:hover{ color:#529e5b;}
+.fot{ background-color:#ffffff;}
+.mar-13px{ margin:13px 0px; text-decoration:none;} 
+
